@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>amdloader test</title>
+</head>
+<body>
+  <h2>My Sample Project</h2>
+  <script src="../../lib/index.bundle.js"></script>
+  <script>
+    require(['./scripts/main'], function(main) {
+      console.log('from main: ', main);
+    });
+  </script>
+</body>
+</html>
